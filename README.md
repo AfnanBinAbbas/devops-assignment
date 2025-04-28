@@ -22,6 +22,8 @@ This project automates the deployment of a web application on AWS using:
 - **Git** for version control
 
 ## Repository Structure
+
+```
 devops-assignment/
 ├── .gitignore
 ├── README.md
@@ -31,6 +33,7 @@ devops-assignment/
 └── terraform/
 ├── main.tf
 └── .terraform.lock.hcl
+```
 
 ## Prerequisites
 - AWS Account with IAM permissions
