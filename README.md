@@ -48,19 +48,19 @@ devops-assignment/
 cd terraform
 terraform init
 terraform apply
-
+```
 ### 2. Application Deployment
 
 # SSH into instance
 ```bash
 ssh -i ../keys/devops-key.pem ec2-user@$(terraform output -raw instance_public_ip)
-
+```
 # Build and run container
 ```bash
 cd ~/app
 docker build -t devops-app .
 docker run -d -p 80:80 --name devops-container devops-app
-
+```
 ### 3. Access the Application
 http://<EC2_PUBLIC_IP>
 
