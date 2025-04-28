@@ -21,15 +21,6 @@ This project automates the deployment of a web application on AWS using:
 - **Docker** for application containerization
 - **Git** for version control
 
-## Architecture
-```mermaid
-graph TD
-    A[Terraform Config] --> B[AWS VPC]
-    B --> C[Public Subnet]
-    C --> D[EC2 Instance]
-    D --> E[Docker Container]
-    E --> F[Web Application]
-
 ## Repository Structure
 devops-assignment/
 ├── .gitignore
