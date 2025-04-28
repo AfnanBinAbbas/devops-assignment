@@ -1,0 +1,11 @@
+keys/
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup
+
+keys/
+.idea/
+.vscode/
+*.tfvars
+.terraform/providers/
